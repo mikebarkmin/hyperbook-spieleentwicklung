@@ -1,0 +1,11 @@
+{
+  "name": "hyperbook-spieleentwicklung",
+  "version": "0.0.0",
+  "description": "Spieleentwicklung mit Scratch for Java",
+  "license": "cc-by-sa",
+  "author": {
+    "name": "Mike Barkmin",
+    "url": "https://barkmin.eu"
+  },
+  "language": "de"
+}
