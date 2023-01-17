@@ -1,13 +1,13 @@
 ---
-name: Erstes Klassendiagramm
+name: Modellierung der Spielidee
 index: 1
 ---
 
-# Erstes Klassendiagramm
+# Modellierung der Spielidee
 
 ## Einführung
 
-Bevor es mit der Programmierung eines Spiels losgehen kann, muss sich ein Entwickler:innenteam über die Grundidee ihres Spiels verständigen. 
+Bevor es mit der Programmierung eines Spiels losgehen kann, muss sich ein Entwickler:innenteam über die Grundidee ihres Spiels verständigen.
 
 Die Spielidee wird von den Entwickler:innen in einem beschreibenden Text festgehalten. Zusätzlich werden sogenannte Mockups angefertigt, die verschiedene Aspekte des Spiel grafisch darstellen.
 
@@ -19,11 +19,11 @@ In dem Genre wird zwischen vertikalen und horizontalen Endless Runners unterschi
 
 ## Die Spielidee
 
-Ein Hase names Bugs soll automatisch von links nach rechts laufen. 
+Ein Hase names Bugs soll automatisch von links nach rechts laufen.
 
 ![Bugs](/assets/bunny-hop/bugs.png "Bugs")
 
-Dabei soll er auf einem Untergrund laufen, der ab und zu Lücken hat. 
+Dabei soll er auf einem Untergrund laufen, der ab und zu Lücken hat.
 
 ![Der Untergrund](/assets/bunny-hop/untergrund.png "Untergrund mit Lücken")
 
@@ -42,30 +42,28 @@ Ziel des Spiels ist es so weit wie möglich nach rechts zu laufen.
 
 ## Modellierung
 
-### Klassendiagramm 
+### Klassendiagramm
 
 Um das Spiel umsetzen zu können, müssen zuerst alle :t[Objekte]{#objekt} und deren :t[Attribute]{#attribut} (Eigenschaften) und :t[Methoden]{#methode} (Fähigkeiten) identifiziert und entsprechende :t[Klassen]{#klasse} in einem :t[UML-Klassendiagramm]{#klassendiagramm} modelliert werden.
 
-### Aufgabe
-
-Das Team hat schon begonnen :t[Klassen]{#klasse} zu modellieren. Eure Aufgabe ist es das folgende :t[Klassendiagramm]{#klassendiagramm} zu vervollständigen.
+Das Team hat schon begonnen :t[Klassen]{#klasse} zu modellieren.
 
 ```mermaid
 classDiagram
 
     class Spiel {
-        
+
     }
 
     class Spieler{
       String bildGehen1
       String bildGehen2
       int x
-      int y 
+      int y
       ...
     }
     class StachelFeind{
-      
+
     }
     class FluegelFeind {
 
@@ -77,12 +75,11 @@ classDiagram
 
     }
     class Plattform{
-      
+
     }
 ```
- 
-Nutzt dazu die Vorlage im [Mermaid-Editor](https://mermaid.live/edit#pako:eNp9kU1vgzAMhv9K5DNCo51Ym_PUXidxq3LxiAvR8oFCkEoR_32BtqiaWH167fdx7CQDlE4ScCg1tu2nwsqjEVZYFmOusaJRpNlwK01xU-MKRX7BiuCVrdi30vJINdnsP2PzMJQN7PKc9OyRpWm6DH0aGbCsSR9IWbnMXeEOuqPqzk33WEG-vGuaaf9XUBGi-fIUjSGcnTd_t4EEDHmDSsaXnk0BoSZDAniUEv2PAGEnDrvgit6WwIPvKIGukRjo_jHAz6jbWG3QAh_gAjzPE-iBZ-95ut-95Ztsu_3Y7aMYE7g6F1uyGT_Nem4ffwEYd5ly).
 
-:::alert{info}
-Das aktuelle Diagramm wird in der URL gespeichert.
-:::
+## Aufgaben
+
+1. Vervollständig das [Klassendiagramm]{#klassendiagramm}. Nutzt dazu die Vorlage im [Mermaid-Editor](https://mermaid.live/edit#pako:eNp9kU1vgzAMhv9K5DNCo51Ym_PUXidxq3LxiAvR8oFCkEoR_32BtqiaWH167fdx7CQDlE4ScCg1tu2nwsqjEVZYFmOusaJRpNlwK01xU-MKRX7BiuCVrdi30vJINdnsP2PzMJQN7PKc9OyRpWm6DH0aGbCsSR9IWbnMXeEOuqPqzk33WEG-vGuaaf9XUBGi-fIUjSGcnTd_t4EEDHmDSsaXnk0BoSZDAniUEv2PAGEnDrvgit6WwIPvKIGukRjo_jHAz6jbWG3QAh_gAjzPE-iBZ-95ut-95Ztsu_3Y7aMYE7g6F1uyGT_Nem4ffwEYd5ly).
+2. Identifiziert Gemeinsamkeiten der Klassen. Schreibt die Gemeinsamkeiten auf.

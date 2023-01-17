@@ -12,6 +12,7 @@
     "brandText": "#4141a2",
     "brandDark": "#efefef"
   },
+  "basePath": "/hyperbook-spieleentwicklung",
   "logo": "/logo.png",
   "language": "de",
   "elements": {
