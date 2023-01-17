@@ -40,4 +40,10 @@ Wenn eine Methode eine Rückgabe hat, dann wird der Datentyp ans Ende geschriebe
 
 ## Stufe 2
 
+In der Stufe 2 kommen Zugriffsmodifikatoren hinzu.
+
+- `+` für public – (engl. öffentlich), unbeschränkter Zugriff
+- `#` für protected – (engl. geschützt), Zugriff nur von der Klasse sowie von Unterklassen (Klassen, die erben)
+- `−` für private – (engl. privat), nur die Klasse selbst kann es sehen
+
 ::excalidraw{src="/assets/klassendiagramm_stufe2.excalidraw" aspectRatio="4/3" autoZoom=true center=true}

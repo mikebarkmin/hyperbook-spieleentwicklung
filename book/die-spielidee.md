@@ -1,5 +1,5 @@
 ---
-name: Die Spielidee
+name: 📃 Die Spielidee
 index: 1
 ---
 
