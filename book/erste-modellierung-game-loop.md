@@ -33,11 +33,11 @@ In dieser Phase wird auf Grundlage der eventuellen Eingaben des Benutzers sowie 
 
 ### 🖊 Aufgabe
 
-Gegen ist der folgende Zustand der Objekte im Spiel:
+Gegeben sind die Objektdiagramme (Zustände) der Objekte im Spiel:
 
 ::excalidraw{src="/assets/game-loop-simulation.excalidraw" aspectRatio="4/3" autoZoom=true center=true}
 
-Formuliert wie sich die Zustände der Objekte verändern sollen, wenn der Benutzer bestimmte Eingaben getätigt hat oder wenn keine Eingabe registriert wurde.
+Formuliert wie sich die Objektdiagramme (Zustände) der Objekte verändern sollen, wenn der Benutzer bestimmte Eingaben getätigt hat oder wenn keine Eingabe registriert wurde.
 
 ## Ausgabe
 
