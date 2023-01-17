@@ -8,8 +8,8 @@
     "url": "https://barkmin.eu"
   },
   "colors": {
-    "brand": "#efefef",
-    "brandText": "#4141a2",
+    "brand": "#4141a2",
+    "brandText": "#efefef",
     "brandDark": "#efefef"
   },
   "basePath": "/hyperbook-spieleentwicklung",
