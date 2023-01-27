@@ -5,7 +5,7 @@ index: 0
 
 # Einführung
 
-Dieses Arbeitsheft begleitet die Entwicklung eurer Spiele im Informatikkurs der Einführungsphase. 
+Dieses Arbeitsheft begleitet die Entwicklung eurer Spiele im Informatikkurs der Einführungsphase.
 
 Ihr werdet am Beispiel Bunny Hop lernen wie Spiele im Team entwickelt und dokumentiert werden.
 

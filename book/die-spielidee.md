@@ -7,9 +7,9 @@ index: 1
 
 ## Einführung
 
-Bevor es mit der Programmierung eines Spiels losgehen kann, muss sich ein Entwickler:innenteam über die Grundidee ihres Spiels verständigen.
+Bevor es mit der Programmierung eines Spiels losgehen kann, muss sich ein Entwickler\:innenteam über die Grundidee ihres Spiels verständigen.
 
-Die Spielidee wird von den Entwickler:innen in einem beschreibenden Text festgehalten. Zusätzlich werden sogenannte Mockups angefertigt, die verschiedene Aspekte des Spiel grafisch darstellen.
+Die Spielidee wird von den Entwickler\:innen in einem beschreibenden Text festgehalten. Zusätzlich werden sogenannte Mockups angefertigt, die verschiedene Aspekte des Spiel grafisch darstellen.
 
 In unserem Fall werden wir einen sogenannten **Endless Runner** entwickeln. Bekannte Spiele des Genres **Endless Runner** sind zum Beispiel "Template Run", "BIT.TRIP Runner", "Subway Surfers", "Doodle Jump" oder auch "Flappy Bird". Wir werden uns dabei auf ein 2D fokussieren.
 
@@ -39,4 +39,3 @@ Ziel des Spiels ist es so weit wie möglich nach rechts zu laufen.
 
 ![Spielsituation](/assets/bunny-hop/frame1.png "Spielsituation")
 ![Spielsituation eine Sekdunde später](/assets/bunny-hop/frame60.png "Spielsituation eine Sekunde später")
-
