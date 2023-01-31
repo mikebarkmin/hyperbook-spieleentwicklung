@@ -1,5 +1,5 @@
 ---
-name: 🖊 Vorbereitung
+name: Vorbereitung
 index: 0
 ---
 
@@ -178,7 +178,7 @@ Deine Ordnerstruktur sollte jetzt wie folgt aussehen:
 
 Um zu überprüfen, ob alles funktioniert hat, werden wir jetzt ein kleines erstes Programm erstellen.
 
-Erstelle dazu eine Klasse **BunnyHop** und eine Klasse **Bugs**. Anschließend kopiere d
+Erstelle dazu eine Klasse **BunnyHop** und eine Klasse **Bugs**. Anschließend kopiere die folgenden Quelltexte in die Klassen.
 
 ::::tabs{id="845876"}
 

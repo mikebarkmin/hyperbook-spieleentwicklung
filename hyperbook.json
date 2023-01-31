@@ -17,5 +17,10 @@
   "language": "de",
   "elements": {
     "bookmarks": false
-  }
+  },
+  "links": [{
+    "href": "https://barkmin.eu/hyperbook-spieleentwicklung",
+    "label": "Scratch for Java",
+    "icon": "😺"
+  }]
 }

@@ -114,7 +114,7 @@ kleinesAuto.farbe;
 ```
 
 :::collapsible{title="Lösung" id="5"}
-Nein! Farbe ist **private** und somit nicht aus Unterklassen erreichbar.
+Nein! Das Attribut farbe ist **private** und somit nicht aus Unterklassen erreichbar.
 :::
 
 2. Überprüfe, ob der folgende Quelltext gültig ist.
@@ -136,7 +136,7 @@ kleinesAuto.gibFarbe();
 ```
 
 :::collapsible{title="Lösung" id="3"}
-Ja! Das Methode gibFarbe der Klasse Fahrzeug ist public und wird somit an die Unterklasse vererbt. Daher kann auf die Methode zugegriffen werden.
+Ja! Die Methode gibFarbe der Klasse Fahrzeug ist public und wird somit an die Unterklasse vererbt. Daher kann auf die Methode zugegriffen werden.
 :::
 
 4. Überprüfe, ob der folgende Quelltext gültig ist.

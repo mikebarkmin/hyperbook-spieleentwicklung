@@ -1,5 +1,5 @@
 ---
-name: Weitere Klassen
+name: 🖊 Weitere Klassen
 lang: de
 ---
 
@@ -47,6 +47,8 @@ classDiagram
         getY(): float
         setX(x: float)
         setY(y: float)
+        changeX(x: float)
+        changeY(y: float)
         setSize(percentage: float)
         move(steps: float)
         setDirection(direction: float)
