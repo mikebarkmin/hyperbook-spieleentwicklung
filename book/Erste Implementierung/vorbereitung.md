@@ -5,7 +5,7 @@ index: 0
 
 # Vorbereitung
 
-Nun werden wir mit der Implementierung des Spiels beginnen. Dazu laden wir uns zuerst die Bibliothek **Scratch for Java** herunter. Diese wird uns die Spieleentwicklung vereinfachen.
+Nun werden wir mit der Implementierung des Spiels beginnen. Dazu laden wir uns zuerst die Bibliothek [**Scratch for Java**](https://scratch4j.openpatch.org) herunter. Diese wird uns die Spieleentwicklung vereinfachen.
 
 ::download[Scratch for Java]{src="https://github.com/openpatch/scratch-for-java/releases/download/v3.0.0/scratch-standalone-windows-amd64.jar"}
 
@@ -189,8 +189,8 @@ import org.openpatch.scratch.*;
 
 public class BunnyHop extends Stage
 {
-    Spieler bugs; 
-    
+    Spieler bugs;
+
     public BunnyHop()
     {
        bugs = new Spieler();
@@ -209,7 +209,7 @@ import org.openpatch.scratch.*;
 
 public class Spieler extends Sprite
 {
-    
+
     public Spieler()
     {
       this.addCostume("stehen", "Grafiken/Players/bunny1_stand.png");
