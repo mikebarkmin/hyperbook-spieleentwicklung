@@ -5,7 +5,7 @@ index: 4
 
 # Erste Modellierung des Game Loops
 
-Die [Modellierung von Klassen](/erste-modellierung-von-klassen) legt die Grundlage für die weitere Arbeit am Spiel. Die wahrscheinlich wichtigste Komponente im Spiel ist der sogenannte [Game Loop](/der-game-loop).
+Die [Modellierung von Klassen](/erste-modellierungen/erste-modellierung-von-klassen) legt die Grundlage für die weitere Arbeit am Spiel. Die wahrscheinlich wichtigste Komponente im Spiel ist der sogenannte [Game Loop](/erste-modellierungen/der-game-loop).
 
 Diesen werden wir jetzt für unser Spiel Bunny Hop modellieren. 
 

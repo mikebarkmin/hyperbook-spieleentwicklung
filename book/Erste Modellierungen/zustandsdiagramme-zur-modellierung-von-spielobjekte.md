@@ -5,7 +5,7 @@ index: 5
 
 # Zustandsdiagramme zur Modellierung von Spielobjekten
 
-Zustandsdiagramme sind ein hervorragendes Mittel um die Zustände von Spielobjekte modellieren zu können. Im Folgenden werden wir uns Zustandsdiagramme im Allgemeinen anschauen und anschließend auf unser [Spiel übertragen](/zustandsdiagramm-fuer-bugs).
+Zustandsdiagramme sind ein hervorragendes Mittel um die Zustände von Spielobjekte modellieren zu können. Im Folgenden werden wir uns Zustandsdiagramme im Allgemeinen anschauen und anschließend auf unser [Spiel übertragen](/erste-modellierungen/zustandsdiagramm-fuer-bugs).
 
 ## Zustandsdiagramme
 
