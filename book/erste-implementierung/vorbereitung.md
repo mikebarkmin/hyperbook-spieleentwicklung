@@ -7,7 +7,7 @@ index: 0
 
 Nun werden wir mit der Implementierung des Spiels beginnen. Dazu laden wir uns zuerst die Bibliothek [**Scratch for Java**](https://scratch4j.openpatch.org) herunter. Diese wird uns die Spieleentwicklung vereinfachen.
 
-::download[Scratch for Java]{src="https://github.com/openpatch/scratch-for-java/releases/download/v3.0.0/scratch-standalone-windows-amd64.jar"}
+::download[Scratch for Java (Windows)]{src="https://github.com/openpatch/scratch-for-java/releases/latest/download/scratch-standalone-windows-amd64.jar"}
 
 Anschließend laden wir uns die Grafiken für unser Spiel herunter.
 
