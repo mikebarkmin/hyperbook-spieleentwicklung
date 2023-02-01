@@ -84,7 +84,7 @@ Da wir nun alle notwendigen Klassen zur Verfügung haben, können wir jetzt die 
 Modifiziere die Klasse **BunnyHop** so, dass sie der obigen Ausgabe entspricht.
 
 :::collapsible{title="Tipp: Position" id="tipp-1"}
-Mit den Methoden **setX** und **setY** kannst du die Position von Objekten der Klasse Sprite verändern.
+Mit den Methoden [**setX**](https://scratch4j.openpatch.org/reference/sprite/motion/setX) und [**setY**](https://scratch4j.openpatch.org/reference/sprite/motion/setY) kannst du die Position von Objekten der Klasse Sprite verändern.
 :::
 
 :::collapsible{title="Tipp: Koordinaten" id="tipp-2"}
