@@ -1,5 +1,5 @@
 ---
-name: 🖊 Weitere Klassen
+name: Weitere Klassen
 lang: de
 index: 1
 ---

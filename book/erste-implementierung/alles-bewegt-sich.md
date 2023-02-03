@@ -1,5 +1,5 @@
 ---
-name: 🖊 Alles bewegt sich
+name: Alles bewegt sich
 index: 2
 ---
 
