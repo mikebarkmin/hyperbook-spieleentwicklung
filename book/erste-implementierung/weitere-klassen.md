@@ -1,6 +1,7 @@
 ---
 name: 🖊 Weitere Klassen
 lang: de
+index: 1
 ---
 
 # Weitere Klassen
@@ -13,7 +14,7 @@ Unser Spiel besteht im Moment aus zwei Klassen. Im Laufe dieser Seite wollen wir
 
 ### Klassen implementieren
 
-Setze das folgende :t[UML-Klassendiagramm]{#klassendiagramm} im BlueJ-Projekt um. Die Klassen **Sprite** und **Stage** stammt aus der **Scratch for Java** Bibliothek. Die Klassen **Sprite** und **Stage** hat eine vielzahl von Methoden, die den Blöcken in Scratch ähneln. Wir werden diese nach und nach kennenlernen. Im Klassendiagramm werden nur im Moment relevante dargestellt, damit es übersichtlich bleibt.
+Setze das folgende :t[UML-Klassendiagramm]{#klassendiagramm} im BlueJ-Projekt um. Die Klassen **Sprite** und **Stage** stammt aus der **Scratch for Java** Bibliothek. Die Klassen **Sprite** und **Stage** haben eine vielzahl von Methoden, die den Blöcken in Scratch ähneln. Wir werden diese nach und nach kennenlernen. Im Klassendiagramm werden nur im Moment relevante dargestellt, damit es übersichtlich bleibt.
 
 ```mermaid
 classDiagram
@@ -47,6 +48,7 @@ classDiagram
         getY(): float
         setX(x: float)
         setY(y: float)
+        setPosition(x: float, y: float)
         changeX(x: float)
         changeY(y: float)
         setSize(percentage: float)
@@ -83,14 +85,20 @@ Da wir nun alle notwendigen Klassen zur Verfügung haben, können wir jetzt die 
 
 Modifiziere die Klasse **BunnyHop** so, dass sie der obigen Ausgabe entspricht.
 
+Setze dazu die Größe der Stage BunnyHop auf 800x400 (`this.setSize(800, 400)`) und nutze die folgenden Objektdiagramme:
+
+::excalidraw{src="/assets/weitere-klassen/object-diagram.excalidraw" aspectRatio="4/3" autoZoom=true center=true edit=false}
+
+
+
 :::collapsible{title="Tipp: Position" id="tipp-1"}
-Mit den Methoden [**setX**](https://scratch4j.openpatch.org/reference/sprite/motion/setX) und [**setY**](https://scratch4j.openpatch.org/reference/sprite/motion/setY) kannst du die Position von Objekten der Klasse Sprite verändern.
+Mit den Methoden [**setX**](https://scratch4j.openpatch.org/reference/sprite/motion/setX), [**setY**](https://scratch4j.openpatch.org/reference/sprite/motion/setY), [**setPosition**](https://scratch4j.openpatch.org/reference/sprite/motion/setPosition) kannst du die Position von Objekten der Klasse Sprite verändern.
 :::
 
 :::collapsible{title="Tipp: Koordinaten" id="tipp-2"}
 Falls du Hilfe bzgl. der Koordinaten brauchst, kannst du im Konstruktor der **BunnyHop**-Klasse die Methode `this.setDebug(true)` aufrufen.
 :::
 
-:::collapsible{title="Tipp: Fenstergröße" id="tipp-3"}
-Wenn du die Fenstergröße ändern möchtest, kannst du im Konstruktor der **BunnyHop**-Klasse die Methode `this.setSize(400, 200)` aufrufen.
-:::
+### Lösung
+
+::archive[Projekt Weitere Klassen.zip]{name="bugs-weitere-klassen"}
