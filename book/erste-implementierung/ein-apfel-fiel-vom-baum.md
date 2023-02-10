@@ -5,7 +5,7 @@ index: 5
 
 # Ein Apfel fiel vom Baum
 
-Bis jetzt spring und fällt unser Spieler bis zu bestimmten Punkte, die wir definiert haben. Im Folgenden wollen wir das Konzept der Gravitation in unser Spiel bringen.
+Bis jetzt spring und fällt unser Spieler bis zu bestimmten Punkten, die wir definiert haben (sprungHoehe und bodenHoehe). Im Folgenden wollen wir das Konzept der Gravitation in unserem Spiel implementieren.
 
 Folgendes Struktogramm zeigt, wie das Konzept der Gravitation in der Spieler-Klasse implementiert sein könnte.
 
@@ -24,4 +24,8 @@ if(this.isTouching(Feind.class)) {
 ## Aufgabe
 
 1. Implementiere das Konzept der Gravitation für die Klasse Spieler.
-2. Implementiere das Konzept der Gravitation für die Klasse Feind
+2. Implementiere das Konzept der Gravitation für die Klasse StachelFeind.
+
+:::collapsible{title="Tipp" id="508943"}
+Nutzte `this.isTouching(Plattform.class)`, um zu überprüfen, ob das aktuelle Objekt mit einer Plattform kollidiert.
+:::

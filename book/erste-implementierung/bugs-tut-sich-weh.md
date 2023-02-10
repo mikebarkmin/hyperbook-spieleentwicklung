@@ -7,7 +7,7 @@ index: 4
 
 Der Stachelfeind und Bugs interagieren im Moment noch nicht. Das wollen wir ändern.
 
-Die Scratch for Java Bibliothek stellt Möglichkeiten bereit, um eine Kollisionsabfrage zu ermöglichen.
+Die Scratch for Java Bibliothek stellt Möglichkeiten bereit, um eine Kollisionsabfrage zu realisieren.
 
 ## Eine erste Kollisionsabfrage
 
@@ -26,7 +26,7 @@ Wenn der Spieler verletzt ist, dann
 
 ### Aufgaben
 
-1. Modifiziere dazu die Klasse `StachelFeind` so, dass ein `StachelFeind` den das Spieler-Objekt kennt. Füge dazu ein Attribut der Klasse `StachelFeind` hinzu und veränder den Konstruktor.
+1. Modifiziere die Klasse `StachelFeind` so, dass ein `StachelFeind` das Spieler-Objekt `bugs` kennt. Füge dazu ein Attribut vom Datentyp `Spieler` der Klasse `StachelFeind` hinzu und verändere den Konstruktor der Klasse `StachelFeind` so, dass das Attribut belegt wird.
 2. Modifiziere die Methode `run()` der Klasse `StachelFeind` so, dass überprüft wird, ob ein StachelFeind den Spieler berührt (`isTouchingSprite`). Wenn dies der Fall ist, soll die `verletzten()`-Methode der Spieler-Klasse aufgerufen werden.
 3. Implementiere die `verletzten`-Methode der Klasse `Spieler`
 
@@ -34,7 +34,7 @@ Wenn der Spieler verletzt ist, dann
 
 Jedes Sprite-Objekt hat eine Hitbox. Wenn du den Debug-Modus aktivierst `setDebug(true)`, dann kannst du die Hitboxen sehen. Manchmal passen die Hitboxen nicht so gut zum Kostüm des Sprites. Mit der Methode `setHitbox` können wir die Hitbox anpassen.
 
-`setHitbox` bekommt eine beliebige Anzahl an Koordinaten der folgenden Form: `setHitbox(x1, y1, x2, y2, x3, y3, ...)`. Diese Koordinaten sind relative zu der linken oberen Ecke.
+`setHitbox` bekommt eine beliebige Anzahl an Koordinaten der folgenden Form: `setHitbox(x1, y1, x2, y2, x3, y3, ...)`. Diese Koordinaten sind relative zu der linken oberen Ecke. Sie verwenden der reihe nach verarbeitet und Bilden ein Polygon (Vieleck).
 
 ![Hitboxen](/assets/bugs-tut-sich-weh/hitboxen.png)
 
