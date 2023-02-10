@@ -29,3 +29,7 @@ if(this.isTouching(Feind.class)) {
 :::collapsible{title="Tipp" id="508943"}
 Nutzte `this.isTouching(Plattform.class)`, um zu überprüfen, ob das aktuelle Objekt mit einer Plattform kollidiert.
 :::
+
+### Lösung
+
+::archive[Projekt Gravitation.zip]{name="bugs-gravitation"}

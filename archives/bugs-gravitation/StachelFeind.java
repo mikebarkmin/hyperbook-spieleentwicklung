@@ -1,6 +1,7 @@
 public class StachelFeind extends Feind {
     
     Spieler spieler;
+    int fallGeschwindigkeit = 5;
     
     public StachelFeind(Spieler pSpieler) {
         this.spieler = pSpieler;
@@ -12,6 +13,10 @@ public class StachelFeind extends Feind {
         this.changeX(-2);
         if (this.isTouchingSprite(spieler)) {
             spieler.verletzten();
+        }
+        this.changeY(fallGeschwindigkeit);
+        while(this.isTouchingSprite(Plattform.class)) {
+            this.changeY(-0.1);
         }
     }
 }
