@@ -4,10 +4,10 @@ public class Spieler extends AnimatedSprite
 {
     Boolean springt = false;
     Boolean faellt = false;
-    float sprungGeschwindigkeit = 1;
-    float sprungHoehe = 50;
+    float sprungGeschwindigkeit = 5;
+    float sprungHoehe = -100;
     
-    float fallGeschwindigkeit = 1;
+    float fallGeschwindigkeit = 5;
     float bodenHoehe = 185;
 
     public Spieler()

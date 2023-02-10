@@ -1,5 +1,6 @@
 ---
 name: Bugs lernt springen
+index: 3
 ---
 
 # Bugs lernt springen

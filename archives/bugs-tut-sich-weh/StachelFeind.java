@@ -1,0 +1,17 @@
+public class StachelFeind extends Feind {
+    
+    Spieler spieler;
+    
+    public StachelFeind(Spieler pSpieler) {
+        this.spieler = pSpieler;
+        this.addCostume("stehen", "Grafiken/Enemies/spikeMan_stand.png");
+        this.setHitbox(0, 154, 0, 65, 44, 0, 90, 66, 90, 155);
+    }
+    
+    public void run() {
+        this.changeX(-2);
+        if (this.isTouchingSprite(spieler)) {
+            spieler.verletzten();
+        }
+    }
+}
