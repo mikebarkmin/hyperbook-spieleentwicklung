@@ -44,3 +44,11 @@ Wir benutzen auch die Methoden `setLetzte` und `getLetzte` der Klasse BunnyHop, 
 1. Erweitere die Klasse Plattform um das Attribut `spiel`. Wähle einen geeigneten Datentyp und weise dem Attribut im Konstruktor einen Wert zu.
 
 1. Erweitere die Klasse BunnyHop um die Methoden `public void setLetzte(Plattform pPlattform)` und `public Plattform getLetzte()`. 
+
+## Wo ist der Stachelfeind?
+
+Auch der Stachelfeind soll wieder zurückkommen. 
+
+### Aufgaben
+
+1. Der Stachelfeind soll, wenn er das Fenster verlassen hat, wieder an den Anfang gesetzt werden.
