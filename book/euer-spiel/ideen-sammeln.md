@@ -16,7 +16,128 @@ Damit alle auf dem gleichen Stand sind, sollt ihr das Bugs-Starter-Projekt benut
 
 ::archive[Bugs Starter]{name="bugs-starter"}
 
-In dem Bug-Starter-Projekte sind noch weitere Features implementiert, die euch auch zur Inspiration dienen sollen.
+In dem Bug-Starter-Projekte sind noch weitere Features implementiert, die euch auch zur Inspiration dienen sollen. Das folgende Klassendiagram zeigt die Klassen und Beziehungen im Bugs-Starter-Projekt.
+
+```mermaid
+classDiagram 
+  direction RL
+  Window <|-- BunnyHop
+  Stage <|-- Level
+  Stage <|-- Ende
+  AnimatedSprite <|-- Sprite
+  Sprite <|-- Plattform
+  Sprite <|-- Spieler
+  Sprite <|-- StachelFeind
+  
+  class BunnyHop {
+    -distanz: int
+    +BunnyHop()
+    +zuruecksetzen()
+    +getDistanz(): int
+    +veraendereDistanz(wert: int)
+  }
+  
+  class Timer {
+    +afterMillis(millis: int)
+    +forMillis(millis: int)
+  }
+  
+  class Stage {
+    +add(d: Drawable)
+    +display(text: String)
+    +setColor(r: int, g: int, b: int)
+    +addTimer(name: String)
+    +getTimer(name: String)
+  }
+  
+  class AnimatedSprite {
+    +addAnimation(name: string, muster: String, frames: int)
+    +playAnimation(name: string)
+  }
+  
+  class Sprite {
+    +changeX(wert: float)
+    +changeY(wert: float)
+    +getX(): float
+    +getY(): float
+    +setX(x: float)
+    +setY(y: float)
+    +getWidth(): int
+    +getHeight(): int
+    +isTouchingSprite(d: Drawable)
+    +isTouchingSprite(class: Class)
+    +addCostume(name: String, pfad: String)
+    +setHitbox(x1: int, y1: int, x2: int, y2: int, ...)
+  }
+  
+  class Text {
+    +Text()
+    +setPosition(x: int, y: int)
+    +showText(text: String)
+  }
+  
+  class Window {
+    +Window(breite: int, hoehe: int, ordner: String)
+    +setDebug(v: boolean)
+    +addStage(name: String, pStage: Stage)
+    +removeStage(name: String)
+    +switchStage(name: String)
+  }
+  
+  Level --> Spieler: -bugs
+  Level --> BunnyHop: -spiel
+  Level --> StachelFeind: -ingo
+  Level --> Plattform: -letzte
+  
+  class Level {
+    +Level(pSpiel: BunnyHop)
+    +getLetzte(): Plattform
+    +setLetzte(pLetzte: Plattform)
+    +run()
+  }
+  
+  Ende --> Text: -text
+  Ende --> BunnyHop: -spiel
+  
+  class Ende {
+    +whenKeyPressed(code: int)
+    +run()
+  }
+  
+  Plattform --> Spieler: -spieler
+  Plattform --> Level: level
+  
+  class Plattform {
+    -istKaputt: boolean
+    -beruehrt: boolean
+    +Plattform(pLevel: Level, pSpieler: Spieler, pIstKaputt: boolean)
+    +beruehren()
+    +run()
+  }
+  
+  class Spieler {
+    -springt: boolean
+    -faellt: boolean
+    -verloren: boolean
+    -sprungGeschwindigkeit: float
+    -sprungHoehe: float
+    -fallGeschwindigkeit: float
+    +Spieler()
+    +verletzten()
+    +hatVerloren()
+    +springen()
+    +graviation()
+    +run()
+  }
+  
+  StachelFeind --> Spieler: -spieler
+  
+  class StachelFeind {
+    -fallGeschwndigkeit: int
+    +StachelFeind(pSpieler: Spieler)
+    +run()
+  }
+```
 
 ## Aufgaben
 
