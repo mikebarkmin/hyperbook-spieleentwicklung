@@ -1,5 +1,6 @@
 ---
 name: Ideen sammeln
+index: 0
 ---
 
 # Ideen sammeln
@@ -141,6 +142,8 @@ classDiagram
 
 ## Aufgaben
 
+### Programmverständnis
+
 1. Ladet das Bugs-Starter-Projekt herunter
 2. Spielt das Bugs-Starter-Projekt und sammelt auf eurem Kanbanboard Ideen zur Weiterentwicklung
 3. Bearbeite die folgenden Fragen zum Quelltext:
@@ -149,5 +152,3 @@ classDiagram
     3. Beschreibt was in der for-Schleife im Konstruktor der Level-Klasse passiert. 
     4. Erklärt was passieren muss, damit ein Objekt der Klasse Ende zu sehen ist.
 4. Schaut in den restlichen Quelltext des Bugs-Starter-Projekts und sammelt Quelltextzeilen, die ihr nicht nachvollziehen könnt
-
-Sammelt auf eurem Kanbandboard (siehe Taskcards eurer Gruppe) Ideen die ihr umsetzen möchtet.
