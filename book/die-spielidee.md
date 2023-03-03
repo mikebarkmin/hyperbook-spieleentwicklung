@@ -31,7 +31,7 @@ Bugs kann in diese Lücken fallen und das Spiel ist verloren. Bugs kann springen
 
 ![Die vier Feinde von Bugs](/assets/bunny-hop/feinde.png "Feinde von Bugs")
 
-Die Feinde sollen sich unterschiedlich bewegen und wenn Bugs einen Feind berüht ist das Spiel verloren. Um sich gegen Feinde zu schützen kann Bugs eine Fähigkeit einsetzen, dafür muss er eine Karotte einsetzen. Karotten sollen im Verlauf des Spiels eingesammelt werden können.
+Die Feinde sollen sich unterschiedlich bewegen und wenn Bugs einen Feind berührt ist das Spiel verloren. Um sich gegen Feinde zu schützen, kann Bugs eine Fähigkeit einsetzen, dafür muss er eine Karotte einsetzen. Karotten sollen im Verlauf des Spiels eingesammelt werden können.
 
 Ziel des Spiels ist es so weit wie möglich nach rechts zu laufen.
 
