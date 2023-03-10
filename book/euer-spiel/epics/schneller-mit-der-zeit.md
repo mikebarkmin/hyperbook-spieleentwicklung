@@ -6,6 +6,6 @@ name: 🥉 Schneller mit der Zeit
 
 :::collapsible{title="Hilfe: Beispiel Implementierung" id="967234"}
 
-::archive[Beispiel Implementierung]{name="epic-schneller-mit-der-zeit"}
+::archive[BlueJ Projekt: Schneller mit der Zeit]{name="epic-schneller-mit-der-zeit"}
 
 :::

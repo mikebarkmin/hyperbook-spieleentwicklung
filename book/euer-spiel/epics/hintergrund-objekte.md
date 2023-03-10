@@ -6,7 +6,7 @@ name: 🥈 Hintergrund Objekte
 
 :::collapsible{title="Hilfe: Beispiel Implementierung" id="9672149234"}
 
-::archive[Beispiel Implementierung]{name="epic-hintergrund-objekte"}
+::archive[BlueJ Projekt: Epic Hintergrund Objekte]{name="epic-hintergrund-objekte"}
 
 :::
 

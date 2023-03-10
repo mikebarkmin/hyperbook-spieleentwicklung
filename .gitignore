@@ -2,3 +2,5 @@
 out
 public/archives/
 bugs-ignore
+
+*.class

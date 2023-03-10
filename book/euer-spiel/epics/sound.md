@@ -7,7 +7,7 @@ name: 🥉 Sound
 
 :::collapsible{title="Hilfe: Beispiel Implementierung" id="967234886"}
 
-::archive[Beispiel Implementierung]{name="epic-sound"}
+::archive[BlueJ Projekt: Epic Sound]{name="epic-sound"}
 
 :::
 

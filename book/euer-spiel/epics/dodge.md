@@ -8,7 +8,7 @@ Das Spiel soll beim Drücken einer Taste pausiert werden. Beim erneuten Drücken
 
 :::collapsible{title="Hilfe: Beispiel Implementierung" id="967326"}
 
-::archive[Beispiel Implementierung]{name="epic-dodge"}
+::archive[BlueJ Projekt: Epic Ausweichen]{name="epic-dodge"}
 
 :::
 
