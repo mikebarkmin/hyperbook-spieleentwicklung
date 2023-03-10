@@ -1,3 +1,3 @@
 ---
-name: Epics
+name: Hilfen für Epics
 ---
