@@ -1,0 +1,4 @@
+---
+name: Shop
+hide: true
+---

@@ -14,8 +14,8 @@ public class Spieler extends AnimatedSprite
 
     public Spieler()
     {
-        this.addAnimation("gehen", "Grafiken/Players/bunny1_walk%d.png", 2);
-        this.addCostume("verletzt", "Grafiken/Players/bunny1_hurt.png");
+        this.addAnimation("gehen", "assets/grafiken/Players/bunny1_walk%d.png", 2);
+        this.addCostume("verletzt", "assets/grafiken/Players/bunny1_hurt.png");
         this.addTimer("verloren");
     }
 

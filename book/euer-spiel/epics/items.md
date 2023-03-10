@@ -1,0 +1,4 @@
+---
+name: Gegenstände
+hide: true
+---

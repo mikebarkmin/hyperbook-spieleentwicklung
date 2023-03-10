@@ -4,9 +4,9 @@ import org.openpatch.scratch.extensions.*;
 public class BunnyHop extends Window
 {
     private int distanz = 0;
-  
+
     public BunnyHop() {
-        super(800, 400, "Grafiken");
+        super(800, 400, "assets");
         this.setDebug(false);
         this.addStage("level", new Level(this));
         this.addStage("ende", new Ende(this));

@@ -1,6 +1,7 @@
 ---
 name: Scrum
 index: 0
+lang: de
 ---
 
 # Scrum
@@ -67,7 +68,7 @@ Die Feinde sollen sich unterschiedlich bewegen und wenn Bugs einen Feind berühr
 
 Epics sind größere Aufgabeneinheiten, die in mehrere kleinere Aufgaben (names User Stories) unterteilt werden können.
 
-Zum Beispiel könnten Epics so lauten: 
+Zum Beispiel könnten Epics so lauten:
 
 **Grundlagen eines Endless-Runners mit einem Hasen.**
 
@@ -98,7 +99,7 @@ Plattformen verschwinden direkt bei der ersten Berührung
 
 **Schritte zum Reproduzieren**
 
-Es ist nicht ganz klar wann der Fehler auftritt. 
+Es ist nicht ganz klar wann der Fehler auftritt.
 
 **Fehlerbeschreibung**
 
