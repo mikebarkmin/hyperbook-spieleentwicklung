@@ -4,6 +4,10 @@ name: 🥉 Sound
 
 # Epic: Sound
 
+:::alert{warn}
+Auf manchen Windowssystem funktioniert der Sound nicht und das Programm wird mit einem Fehler beendet.
+:::
+
 
 :::collapsible{title="Hilfe: Beispiel Implementierung" id="967234886"}
 

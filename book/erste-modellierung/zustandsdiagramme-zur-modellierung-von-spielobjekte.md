@@ -13,7 +13,7 @@ Ein Zustandsdiagramm besteht aus Zuständen (Kreisen) und Übergängen (Pfeilen)
 
 Im Folgenden ist ein Zustandsdiagramm zu sehen, welches die Zustände für Objekte der Klasse Lehrer modelliert:
 
-::excalidraw{src="/assets/zustandsdiagramm.excalidraw" aspectRatio="4/3" autoZoom=true center=true edit=false}
+::excalidraw{src="/assets/zustandsdiagramm.excalidraw" aspectRatio="4/3" autoZoom=true center=true}
 
 
 ### Aufgaben

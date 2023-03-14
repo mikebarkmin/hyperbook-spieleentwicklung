@@ -87,7 +87,7 @@ Modifiziere die Klasse **BunnyHop** so, dass sie der obigen Ausgabe entspricht.
 
 Setze dazu die Größe der Stage BunnyHop auf 800x400 (`this.setSize(800, 400)`) und nutze die folgenden Objektdiagramme:
 
-::excalidraw{src="/assets/weitere-klassen/object-diagram.excalidraw" aspectRatio="4/3" autoZoom=true center=true edit=false}
+::excalidraw{src="/assets/weitere-klassen/object-diagram.excalidraw" aspectRatio="4/3" autoZoom=true center=true}
 
 
 
