@@ -22,5 +22,9 @@
     "href": "https://scratch4j.openpatch.org",
     "label": "Scratch for Java",
     "icon": "😺"
+  }, {
+    "href": "/glossary",
+    "label": "Glossar",
+    "icon": "📖"
   }]
 }
