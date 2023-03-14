@@ -11,7 +11,7 @@ Ihr werdet am Beispiel Bunny Hop lernen wie Spiele im Team entwickelt und dokume
 
 ![Bunny Hop](/assets/bunny-hop/frame60.png "Bunny Hop")
 
-Ihr werde auch lernen wie ausgewählte Spielmechaniken modelliert und implementiert werden können.
+Ihr werde auch lernen, wie ausgewählte Spielmechaniken modelliert und implementiert werden können.
 
 Das Arbeitsheft soll euch somit bei der Entwicklung eines eigenen Spiels unterstützen.
 
