@@ -10,7 +10,7 @@ Für einen animierten Hintergrund benötigen wir eine neue Klasse Hintergrund. O
 
 :::collapsible{title="Hilfe: Bewegung" id="527783"}
 
-Mit `changeX(wert)` kann die x-Koordinate eines Objekt um einen bestimmten Wert verändert werden.
+Mit `changeX(wert)` kann die x-Koordinate eines Objekts der Klasse Sprite um einen bestimmten Wert verändert werden.
 
 ```java
 public void run() {
@@ -24,7 +24,7 @@ public void run() {
 
 :::collapsible{title="Hilfe: Wiederholung des Hintergrunds" id="671568"}
 
-Um den Hintergrund nahtlos zu wiederholen, musst du genau so vorgehen wie bei der Plattform. Schaue dir dazu die `Level` und die `Plattform`-Klasse genauer an und versuche die Implementierung auf den Hintergrund zu übertragen.
+Um den Hintergrund nahtlos zu wiederholen, kann man genau so vorgehen wie bei der Plattform. Schaue dir dazu die `Level` und die `Plattform`-Klasse genauer an und versuche die Implementierung auf den Hintergrund zu übertragen.
 
 :::
 
