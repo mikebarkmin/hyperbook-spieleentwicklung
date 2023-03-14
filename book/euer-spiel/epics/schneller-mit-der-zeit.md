@@ -8,7 +8,7 @@ Das Spiel soll alle paar Sekunden schneller werden.
 
 :::collapsible{title="Hilfe: Globale Geschwindigkeit" id="570315"}
 
-Zunächst wollen wir ein Attribut "geschwindigkeit" in der Level haben, welches die Geschwindigkeit des Spiels repräsentiert. Dieses Attribut verändern wir alle 5000 Millisekunden (5 Sekunden).
+Zunächst wollen wir ein :t[Attribut]{#attribut} "geschwindigkeit" in der Level haben, welches die Geschwindigkeit des Spiels repräsentiert. Dieses :t[Attribut]{#attribut} verändern wir alle 5000 Millisekunden (5 Sekunden).
 
 ```java
 public class Level extends Stage {
@@ -28,7 +28,7 @@ public class Level extends Stage {
 
 :::collapsible{title="Hilfe: Geschwindigkeit nutzen" id="330385"}
 
-Damit wir die Geschwindigkeit in anderen Klassen nutzen können, müssen zunächst einen Methode in der Klasse Level hinzufügen.
+Damit wir die Geschwindigkeit in anderen :t[Klassen]{#klasse} nutzen können, müssen zunächst einen :t[Methode]{#methode} in der Klasse Level hinzufügen.
 
 ```java
 public float getGeschwindigkeit() {
@@ -36,7 +36,7 @@ public float getGeschwindigkeit() {
 }
 ```
 
-Jetzt können wir die Methode in anderen Klassen nutzen.
+Jetzt können wir die :t[Methode]{#methode} in anderen :t[Klassen]{#klasse} nutzen.
 
 :::
 

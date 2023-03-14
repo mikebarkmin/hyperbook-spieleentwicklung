@@ -6,7 +6,7 @@ name: 🥉 Tag und Nacht
 
 :::collapsible{title="Hilfe: Globale Eigenschaft" id="536496"}
 
-Ob Tag ist, kannst du dir am besten als Attribut in deiner Level-Klasse speichern. Definiere einen Getter und schon können alle Objekte, die die Klasse kennen darauf zugreifen.
+Ob Tag ist, kannst du dir am besten als :t[Attribut]{#attribut} in deiner Level-Klasse speichern. Definiere einen :t[Getter]{#vererbung-java} und schon können alle Objekte, die die :t[Klasse]{#klasse} kennen darauf zugreifen.
 
 ```java
 private boolean tag = false;
