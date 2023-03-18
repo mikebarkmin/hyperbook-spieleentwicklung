@@ -1,13 +1,14 @@
 ---
 name: 📃 Der Game Loop
 index: 3
+lang: de
 ---
 
 # Der Game Loop
 
-Fast jedes Computerspiel was ihr kennt hat eine Hauptmethode, die die ganze Logik des Spiels enthält. Diese wird entweder durch die Eingabe eines Benutzers oder nach einer bestimmten Zeit aufgerufen. Dieser Zyklus des wiederholten Ausführens der Methode heißt **Game Loop**.
+Fast jedes Computerspiel, das ihr kennt, hat eine Hauptmethode, die die ganze Logik des Spiels enthält. Diese wird entweder durch die Eingabe eines Benutzers oder nach einer bestimmten Zeit aufgerufen. Dieser Zyklus des wiederholten Ausführens der Methode heißt **Game Loop**.
 
-Einen spannenden und packenden Game Loop zu entwickeln ist das wichtigste bei der Spieleprogrammierung.
+Einen spannenden und packenden Game Loop zu entwickeln ist das Wichtigste bei der Spieleprogrammierung.
 
 Damit die Entwicklung des Game Loops funktionieren kann, schauen wir uns zunächst seine Bestandteile an.
 
@@ -23,7 +24,7 @@ Wir werden uns im folgenden jede Phase im Detail anschauen.
 
 In der Eingabephase werden die Eingaben des Benutzers verarbeitet. Klassischerweise werden die Tastatur, Maus oder ein Gamepad in der Spieleentwicklung berücksichtigt.
 
-Zum Beispiel im Spiel Mario wird registriert, ob der Benutzer nach links, rechts, oben oder untern gedrückt hat.
+Zum Beispiel im Spiel Mario wird registriert, ob der Benutzer nach links, rechts, oben oder unten gedrückt hat.
 
 :::alert{info}
 Anders als beim EVA-Prinzip muss der Benutzer keine Eingabe getätigt haben.
@@ -31,9 +32,9 @@ Anders als beim EVA-Prinzip muss der Benutzer keine Eingabe getätigt haben.
 
 ### Simulation
 
-In der Simulationsphase werden die Eingabe verwendet, um den aktuellen Zustand der :t[Attribute]{#attribut} der :t[Objekte]{#objekt} zu verändern.
+In der Simulationsphase werden die Eingaben verwendet, um den aktuellen Zustand der :t[Attribute]{#attribut} der :t[Objekte]{#objekt} zu verändern.
 
-Beim Spiel Mario wirkt das Drücken der linken Pfeiltaste aus, dass Mario sich nach links bewegt. Dazu wird seine Geschwindigkeit und Orientierung verändert. Sollte Mario auf ein Hindernis treffen, wird diese registriert und seine Geschwindigkeit auf 0 gesetzt.
+Beim Spiel Mario löst das Drücken der linken Pfeiltaste aus, dass Mario sich nach links bewegt. Dazu wird seine Geschwindigkeit und Orientierung verändert. Sollte Mario auf ein Hindernis treffen, wird dieses registriert und seine Geschwindigkeit auf 0 gesetzt.
 
 Der Pseudocode des Algorithmus "nach links bewegen" könnte so aussehen:
 
@@ -45,8 +46,8 @@ In der Ausgabephase werden alle Objekte gezeichnet.
 
 ## Frames
 
-Bestimmt habt ihr schon einmal von Frames gehört oder schon einmal einen Framedrop erlebt. Ein Frame beschreibt eine Ausführung des Game Loops. 
-Ziel von Spieleentwickler:innen ist es die Zeit zwischen den Frames konstant zu halten, sodass der Benutzer ein ruckelfreies Erlebnis hat. In der Regel werden z. B. 60 oder 120 Frames pro Sekunde angestrebt.
+Bestimmt habt ihr schon einmal von Frames gehört oder schon einmal einen Framedrop erlebt. Ein Frame beschreibt eine Ausführung des Game Loops.
+Ziel von Spieleentwicklern ist es, die Zeit zwischen den Frames konstant zu halten, sodass der Benutzer ein ruckelfreies Erlebnis hat. In der Regel werden z. B. 60 oder 120 Frames pro Sekunde angestrebt.
 
 :::alert{info}
 Entwickler:innen trennen auf Systemen mit mehreren Kernen den Game Loop vom Draw Loop.
@@ -56,7 +57,7 @@ In der folgenden Abbildung seht ihr vier Frames des Spiels Mario.
 
 ![Game Loop Mario visualisiert](/assets/game-loop-mario.png "Visualisierung des Game Loops von Mario")
 
-### Aufgabe 
+### Aufgabe
 🖊 Ordne die Phasen des Game Loops Teilen der Abbildung zu.
 
 :::collapsible{title="Lösung" id="frames"}

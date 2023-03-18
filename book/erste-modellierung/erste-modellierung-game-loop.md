@@ -1,13 +1,14 @@
 ---
 name: 🖊 Erste Modellierung des Game Loops
 index: 4
+lang: de
 ---
 
 # Erste Modellierung des Game Loops
 
 Die [Modellierung von Klassen](/erste-modellierungen/erste-modellierung-von-klassen) legt die Grundlage für die weitere Arbeit am Spiel. Die wahrscheinlich wichtigste Komponente im Spiel ist der sogenannte [Game Loop](/erste-modellierungen/der-game-loop).
 
-Diesen werden wir jetzt für unser Spiel Bunny Hop modellieren. 
+Diesen werden wir jetzt für unser Spiel Bunny Hop modellieren.
 
 ## Eingabe
 
@@ -19,7 +20,7 @@ Lest euch nochmal die [Spielidee](/die-spielidee) durch und formuliert welche Ei
 
 ## Simulation
 
-In dieser Phase wird auf Grundlage der eventuellen Eingaben des Benutzers sowie des alten Zustands der Objekte neue Zustände der Objekte berechnet. Diese Phase wird auch ausgeführt, wenn keine Benutzereingaben getätigt worden sind.
+In dieser Phase werden auf Grundlage der eventuellen Eingaben des Benutzers sowie des alten Zustands der Objekte neue Zustände der Objekte berechnet. Diese Phase wird auch ausgeführt, wenn keine Benutzereingaben getätigt worden sind.
 
 ### 🖊 Aufgabe
 
@@ -35,7 +36,7 @@ In der dritten Phase werden die neuen Zustände der Objekte grafisch dargestellt
 
 ### 🖊 Aufgabe
 
-Zeichen das Spiel für die folgenden Zustände der Objekte.
+Zeichne das Spiel für die folgenden Zustände der Objekte.
 
 ::excalidraw{src="/assets/game-loop-simulation.excalidraw" aspectRatio="4/3" autoZoom=true center=true}
 

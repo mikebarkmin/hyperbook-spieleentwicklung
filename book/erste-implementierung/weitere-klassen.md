@@ -14,7 +14,7 @@ Unser Spiel besteht im Moment aus zwei Klassen. Im Laufe dieser Seite wollen wir
 
 ### Klassen implementieren
 
-Setze das folgende :t[UML-Klassendiagramm]{#klassendiagramm} im BlueJ-Projekt um. Die Klassen **Sprite** und **Stage** stammt aus der **Scratch for Java** Bibliothek. Die Klassen **Sprite** und **Stage** haben eine vielzahl von Methoden, die den Blöcken in Scratch ähneln. Wir werden diese nach und nach kennenlernen. Im Klassendiagramm werden nur im Moment relevante dargestellt, damit es übersichtlich bleibt.
+Setze das folgende :t[UML-Klassendiagramm]{#klassendiagramm} im BlueJ-Projekt um. Die Klassen **Sprite** und **Stage** stammen aus der **Scratch for Java** Bibliothek. Die Klassen **Sprite** und **Stage** haben eine Vielzahl von Methoden, die den Blöcken in Scratch ähneln. Wir werden diese nach und nach kennenlernen. Im Klassendiagramm werden nur im Moment relevante dargestellt, damit es übersichtlich bleibt.
 
 ```mermaid
 classDiagram
@@ -76,7 +76,7 @@ classDiagram
 ```
 
 :::alert{info}
-Wenn du dir nicht sicher bist wie man das Klassendiagramm in Java umsetzen kann, dann orientiere dich an der Klasse Spieler oder schaue hier: :t[Verebung in Java]{#vererbung-java}
+Wenn du dir nicht sicher bist wie man das Klassendiagramm in Java umsetzen kann, dann orientiere dich an der Klasse Spieler oder schaue hier: :t[Vererbung in Java]{#vererbung-java}
 :::
 
 ### Ausgabe nachstellen
