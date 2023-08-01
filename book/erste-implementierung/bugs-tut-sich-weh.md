@@ -1,6 +1,7 @@
 ---
 name: Bugs tut sich weh
 index: 4
+lang: de
 ---
 
 # Bugs tut sich weh

@@ -1,6 +1,7 @@
 ---
 name: Bugs lernt springen
 index: 3
+lang: de
 ---
 
 # Bugs lernt springen
@@ -12,7 +13,7 @@ Nutze die folgende Implementierung der Methode `public void run()` der Klasse `S
 ```java
 public void run() {
     this.playAnimation("gehen");
-        
+
     if (springt) {
         changeY(-sprungGeschwindigkeit);
         if (getY() <= sprungHoehe) {
@@ -27,7 +28,7 @@ public void run() {
             setY(bodenHoehe);
         }
     }
-    
+
     if (!faellt && !springt && isKeyPressed(KeyCode.VK_SPACE)) {
         springt = true;
     }

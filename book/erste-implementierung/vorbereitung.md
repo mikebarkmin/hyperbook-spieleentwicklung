@@ -8,7 +8,7 @@ lang: de
 
 Nun werden wir mit der Implementierung des Spiels beginnen. Dazu laden wir uns zuerst die Bibliothek [**Scratch for Java**](https://scratch4j.openpatch.org) herunter. Diese wird uns die Spieleentwicklung vereinfachen.
 
-::download[Scratch for Java (Windows)]{src="https://github.com/openpatch/scratch-for-java/releases/latest/download/scratch-standalone-windows-amd64.jar"}
+::download[Scratch for Java (Windows)]{src="/assets/scratch4j-windows-amd64.jar"}
 
 Anschließend laden wir uns die Grafiken für unser Spiel herunter.
 
@@ -29,17 +29,17 @@ Jetzt müssen wir die Bibliothek **Scratch for Java** registrieren. Das machen w
 3. Die Jar-Datei von Scratch for Java in den Ordner **+libs** verschieben.
 4. BlueJ neustarten. Erst danach wir die neue Bibliothek registriert.
 
-Als nächstes wollen wir die Grafiken verfügbar machen. Dazu führen wir folgende Schritte durch:
+Als Nächstes wollen wir die Grafiken verfügbar machen. Dazu führen wir folgende Schritte durch:
 
 1. Den Projekt-Ordner von **Bunny Hop** im Dateimanager öffnen.
 2. Einen Ordner Grafiken anlegen.
 3. Die Zip-Datei jumperpack_kenny.zip entpacken.
-4. Den Inhalt des Ordners PNG in den Ordner Grafiken verschieben.
+4. Den Inhalt des Ordners PNG in den Ordner assets verschieben.
 
 Deine Ordnerstruktur sollte jetzt wie folgt aussehen:
 
 ```bash
-├── Grafiken
+├── assets
 │   ├── Background
 │   ├── Enemies
 │   ├── Environment
@@ -48,7 +48,7 @@ Deine Ordnerstruktur sollte jetzt wie folgt aussehen:
 │   ├── Particles
 │   └── Players
 ├── +libs
-│   └── scratch-standalone-windows-amd64.jar
+│   └── scratch4j-windows-amd64.jar
 ├── package.bluej
 └── README.TXT
 ```
@@ -91,7 +91,7 @@ public class Spieler extends Sprite
 
     public Spieler()
     {
-      this.addCostume("stehen", "Grafiken/Players/bunny1_stand.png");
+      this.addCostume("stehen", "assets/Players/bunny1_stand.png");
     }
 
 }

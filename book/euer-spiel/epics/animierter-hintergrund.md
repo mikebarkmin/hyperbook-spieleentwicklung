@@ -1,10 +1,11 @@
 ---
 name: 🥈 Animierter Hintergrund
+lang: de
 ---
 
 # Animierter Hintergrund
 
-Für einen animierten Hintergrund können wir genau so vorgehen wie bei der Bewegung der Plattformen. 
+Für einen animierten Hintergrund können wir genau so vorgehen wie bei der Bewegung der Plattformen.
 
 Für einen animierten Hintergrund benötigen wir eine neue Klasse Hintergrund. Objekte dieser Klasse sollen als Kostüm den Hintergrund bekommen.
 

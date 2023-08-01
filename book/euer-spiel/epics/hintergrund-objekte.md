@@ -1,5 +1,6 @@
 ---
 name: 🥈 Hintergrundobjekte
+lang: de
 ---
 
 # Epic: Hintergrundobjekte
@@ -59,4 +60,3 @@ deko.setX(this.getX());
 ::archive[BlueJ Projekt: Epic Hintergrund Objekte]{name="epic-hintergrund-objekte"}
 
 :::
-

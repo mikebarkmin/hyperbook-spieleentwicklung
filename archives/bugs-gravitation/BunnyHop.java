@@ -1,5 +1,4 @@
 import org.openpatch.scratch.*;
-import org.openpatch.scratch.extensions.*;
 
 public class BunnyHop extends Stage
 {

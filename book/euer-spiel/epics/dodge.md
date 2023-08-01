@@ -1,5 +1,6 @@
 ---
 name: 🥇 Ausweichen (Dodge)
+lang: de
 ---
 
 # Epic Ausweichen (Dodge)
@@ -11,4 +12,3 @@ Das Spiel soll beim Drücken einer Taste pausiert werden. Beim erneuten Drücken
 ::archive[BlueJ Projekt: Epic Ausweichen]{name="epic-dodge"}
 
 :::
-

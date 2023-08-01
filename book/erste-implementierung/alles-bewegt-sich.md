@@ -1,6 +1,7 @@
 ---
 name: Alles bewegt sich
 index: 2
+lang: de
 ---
 
 # Alles bewegt sich
@@ -44,7 +45,7 @@ Besitzt eine Klasse die Methode `run`, dann wird diese Methode 60-mal in der Sek
 
 Unser Spieler-Objekt Bugs bleibt in unserem Spiel auf der Stelle stehen, dennoch soll der Eindruck entstehen, dass er sich bewegt.
 
-Zum Glück bietet die Scratch for Java Bibliothek eine einfache Möglichkeit. Wir können die Klasse `AnimatedSprite` nutzen. AnimatedSprite ist eine Unterklasse der Klasse Sprite. Daher besitzt sich alle öffentlichen Methoden, die auch in der Klasse Sprite vorhanden waren.
+Zum Glück bietet die Scratch for Java Bibliothek eine einfache Möglichkeit. Wir können die Klasse `AnimatedSprite` aus dem Paket `org.openpatch.scratch.extensions.animation.*` nutzen. AnimatedSprite ist eine Unterklasse der Klasse Sprite. Daher besitzt sich alle öffentlichen Methoden, die auch in der Klasse Sprite vorhanden waren.
 
 ```mermaid
 classDiagram
@@ -119,20 +120,11 @@ Um eine Animation hinzuzufügen, kann die Methode `addAnimation(name, pattern, f
 | pattern | String | Ein Muster zum Finden von Dateien, die zur Animation gehören. |
 | frames | String | Die Anzahl der Frames die für die Animation geladen werden sollen |
 
-Zum Beispiel würde der Aufruf `addAnimation("gehen", "Grafiken/Player/bunny1_walk%d.png", 2)`
+Zum Beispiel würde der Aufruf `addAnimation("gehen", "assets/Player/bunny1_walk%d.png", 2)`
 
 die Bilder
-- "Grafiken/Player/bunny1_walk1.png"
-- "Grafiken/Player/bunny1_walk2.png"
-
-der Animation "gehen" hinzufügen.
-
-
-
-Der Aufruf `addAnimation("gehen", "Grafiken/Player/bunny1_walk%02d.png", 2)` würde hingegen
-die Bilder
-- "Grafiken/Player/bunny1_walk01.png"
-- "Grafiken/Player/bunny1_walk02.png"
+- "assets/Player/bunny1_walk1.png"
+- "assets/Player/bunny1_walk2.png"
 
 der Animation "gehen" hinzufügen.
 
@@ -141,5 +133,5 @@ Animationen können dann durch den Aufruf der Methode `playAnimation(name)` ausg
 ### Aufgabe
 
 1. Modifiziere die Klasse `Spieler` so, dass diese von der Klasse `AnimatedSprite` erbt.
-2. Füge der Klasse `Spieler` im Konstruktor eine Animation `gehen` hinzu. Schaue dir dazu den Ordner `Grafiken` an, um passende Bilder zu finden.
+2. Füge der Klasse `Spieler` im Konstruktor eine Animation `gehen` hinzu. Schaue dir dazu den Ordner `assets` an, um passende Bilder zu finden.
 3. Implementiere die Methode `public void run()` und spiele die Animation ab.

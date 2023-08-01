@@ -1,4 +1,5 @@
 import org.openpatch.scratch.*;
+import org.openpatch.scratch.extensions.text.*;
 
 public class Ende extends Stage {
     private Text text;
